@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Framework.HomePageTest">
+        <methods>
+          <include name="basePagenavigation" invocation-numbers="0 1"/>
+          <include name="afterTest"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Framework.HomePageTest -->
+      <class name="Framework.VerifyTextTest">
+        <methods>
+          <include name="intialize"/>
+          <include name="verifyText"/>
+        </methods>
+      </class> <!-- Framework.VerifyTextTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
